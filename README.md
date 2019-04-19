@@ -1,105 +1,32 @@
 # How Tomcat Works 
 
+#### tomcat启动流程
+
+1. 启动器启动 : 创建连接器，初始化servlet容器，包括给servlet容器添加阀，将连接器和容器关联起来，初始化连接器，启动连接器线程
+
+3. 容器初始化： 构建管道，设置基础阀
+
+3. 连接器初始化和启动：连接器会初始化处理器线程池，监听socket套接字
+
+4. 处理器线程： 根据socket传输的内容创建request，response，并构造相关信息，调用容器的invoke方法，此后所有的动作都是在处理器线程中完成的
+
+5. 容器invoke： 调用管道的invoke方法
+
+6. 管道invoke： 使用管道上下文对象调用阀的invoke
+
+7. 阀invoke： 使用管道上下文调用下个阀的invoke，直到调用基础阀的invoke
+
+8. 基础阀invoke： 让容器加载servlet并初始化，然后调用servlet的service方法
+
+9. servlet实例的service： 根据request内容构造response，并将结果返回给客户端
+
+##### 线程总体划分
+
+一共有三个大的线程
+
+1. 主线程，前台线程，软件启动时的主线程
+2. 连接器线程，后台线程，主要负责监听网络套接字的连接
+3. 处理器线程组，后台线程，根据套接字的内容处理业务逻辑
+
+##### 容器之间的关系
 ![](./flow.png)
-
-## 1.一个简答的Web服务器
-
-问题：请求HttpServer没有看到响应的内容
-
-原因：socket输出之前要有HTTP响应头
-
-```java
-output.write("HTTP/1.0 200 OK\r\nContent-Type: text/html\r\n\r\n".getBytes());
-```
-
-## 2.一个简单的Servlet容器
-
-面向接口编程
-
-反射
-
-门面模式
-
-## 3. 连接器
-
-使用tomcat-util RequestUtil解析请求参数和cookie
-
-实现的Connector是Tomcat 4默认连接器的一个简化版本
-
-
-## 4.Tomcat的默认连接器
-
-HTTP 1.1 的新特性
-
-Tomcat 4默认连接器的原理
-
-## 5.Servlet容器
-
-Context, Wrapper Container
-
-容器接到请求后，由Pipeline处理
-
-## 6.生命周期
-
-实现LifeCycle管理组件的生命周期
-
-优雅的启动，关闭关联的组件
-
-## 7.Logger
-
-FileLogger的实现
-
-## 8.加载器
-
-Tomcat为何要实现自己的加载器
-
-Loader, Reloader接口
-
-WepappLoader, WepappClassLoader
-
-
-## 11.StandardWrapper
-
-StandardWrapper工作原理,loadServlet过程
-
-## 12.StandardContext
-
-start做了哪些工作
-
-Tomcat 4中组件使用各自的线程来处理一些定时任务,Tomcat 5中为了节省资源所有后台任务共享一个线程
-
-
-## 13.Host和Engine
-
-使用Host,Engine容器
-
-## 14.Server和Service组件
-
-Server优雅的方式启动,关闭整个catalina
-
-## 15.Digester库
-
-
-## 16.ShutdownHook
-
-没说和Tomcat有啥关系
-
-
-
-## TODO
-
-TODO 找一个版本的tomcat,浏览源码
-
-看完后，要画一张请求处理的流程图
-
-梳理组件关联UML图
-
-
-
-
-
----
-
-
-- [Source Code](http://brainysoftware.com/source/9780975212806.zip)
-- [Original Repo](https://github.com/serivires/how-tomcat-works)
