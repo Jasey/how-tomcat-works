@@ -7,6 +7,7 @@ public class ModernServlet extends HttpServlet {
 
     public void init(ServletConfig config) {
         System.out.println("ModernServlet -- init");
+
     }
 
     public void doGet(HttpServletRequest request,
