@@ -263,7 +263,7 @@ public class WebappClassLoader extends URLClassLoader implements Reloader, Lifec
     /**
      * The debugging detail level of this component.
      */
-    protected int debug = 0;
+    protected int debug = 4;
 
 
     /**
@@ -1302,7 +1302,7 @@ public class WebappClassLoader extends URLClassLoader implements Reloader, Lifec
         clazz = findLoadedClass0(name);
         if (clazz != null) {
             if (debug >= 3)
-                log("  Returning class from cache");
+                log(" findLoadedClass0 Returning class from cache, " + name);
             if (resolve)
                 resolveClass(clazz);
             return (clazz);
@@ -1312,7 +1312,7 @@ public class WebappClassLoader extends URLClassLoader implements Reloader, Lifec
         clazz = findLoadedClass(name);
         if (clazz != null) {
             if (debug >= 3)
-                log("  Returning class from cache");
+                log("findLoadedClass  Returning class from cache, " + name);
             if (resolve)
                 resolveClass(clazz);
             return (clazz);
@@ -1325,6 +1325,7 @@ public class WebappClassLoader extends URLClassLoader implements Reloader, Lifec
             if (clazz != null) {
                 if (resolve)
                     resolveClass(clazz);
+                log("System Returning class, " + name);
                 return (clazz);
             }
         } catch (ClassNotFoundException e) {

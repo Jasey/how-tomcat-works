@@ -12,6 +12,7 @@ import org.apache.catalina.connector.http.HttpConnector;
 import org.apache.catalina.core.StandardContext;
 import org.apache.catalina.loader.WebappClassLoader;
 import org.apache.catalina.loader.WebappLoader;
+import org.apache.catalina.logger.FileLogger;
 import org.apache.naming.resources.ProxyDirContext;
 
 public final class Bootstrap {
@@ -43,6 +44,15 @@ public final class Bootstrap {
         // add ContextConfig. This listener is important because it configures
         // StandardContext (sets configured to true), otherwise StandardContext
         // won't start
+
+        System.setProperty("catalina.base", System.getProperty("user.dir"));
+        FileLogger logger = new FileLogger();
+        logger.setPrefix("FileLog_");
+        logger.setSuffix(".txt");
+        logger.setTimestamp(true);
+        logger.setDirectory("myApp");
+        context.setLogger(logger);
+
         LifecycleListener listener = new SimpleContextConfig();
         ((Lifecycle) context).addLifecycleListener(listener);
 

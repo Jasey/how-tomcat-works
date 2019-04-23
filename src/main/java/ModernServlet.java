@@ -2,17 +2,35 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.*;
 import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class ModernServlet extends HttpServlet {
 
+    private ExecutorService executorService = null;
     public void init(ServletConfig config) {
         System.out.println("ModernServlet -- init");
-
+        executorService = Executors.newFixedThreadPool(2);
     }
 
     public void doGet(HttpServletRequest request,
                       HttpServletResponse response)
             throws ServletException, IOException {
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("hello, some thing to do ...");
+                try {
+                    Thread.sleep(10000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        ModernServlet modernServlet = new ModernServlet();
+        System.out.println(modernServlet);
 
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();

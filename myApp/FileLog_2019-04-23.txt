@@ -1,0 +1,342 @@
+2019-04-23 16:36:00 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 16:36:00 HttpConnector[8080] Starting background thread
+2019-04-23 16:36:00 HttpProcessor[8080][0] Starting background thread
+2019-04-23 16:36:00 HttpProcessor[8080][1] Starting background thread
+2019-04-23 16:36:00 HttpProcessor[8080][2] Starting background thread
+2019-04-23 16:36:00 HttpProcessor[8080][3] Starting background thread
+2019-04-23 16:36:00 HttpProcessor[8080][4] Starting background thread
+2019-04-23 16:36:01 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 16:36:01 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 16:36:01 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 16:36:01 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 16:36:09 HttpProcessor[8080][4] process.invoke
+java.lang.IllegalAccessError: tried to access class ModernServlet$1 from class ModernServlet
+	at ModernServlet.doGet(ModernServlet.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at ex08.pyrmont.core.SimpleWrapperValve.invoke(SimpleWrapperValve.java:44)
+	at ex08.pyrmont.core.SimplePipeline$StandardPipelineValveContext.invokeNext(SimplePipeline.java:105)
+	at ex08.pyrmont.core.SimplePipeline.invoke(SimplePipeline.java:65)
+	at ex08.pyrmont.core.SimpleWrapper.invoke(SimpleWrapper.java:280)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:185)
+	at org.apache.catalina.core.StandardPipeline$StandardPipelineValveContext.invokeNext(StandardPipeline.java:642)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:478)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:993)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2368)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:972)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1085)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-23 16:37:12 HttpProcessor[8080][4] process.invoke
+java.lang.IllegalAccessError: ModernServlet$1
+	at ModernServlet.doGet(ModernServlet.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at ex08.pyrmont.core.SimpleWrapperValve.invoke(SimpleWrapperValve.java:44)
+	at ex08.pyrmont.core.SimplePipeline$StandardPipelineValveContext.invokeNext(SimplePipeline.java:105)
+	at ex08.pyrmont.core.SimplePipeline.invoke(SimplePipeline.java:65)
+	at ex08.pyrmont.core.SimpleWrapper.invoke(SimpleWrapper.java:280)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:185)
+	at org.apache.catalina.core.StandardPipeline$StandardPipelineValveContext.invokeNext(StandardPipeline.java:642)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:478)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:993)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2368)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:972)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1085)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-23 16:38:57 HttpProcessor[8080][4] process.invoke
+java.lang.IllegalAccessError: ModernServlet$1
+	at ModernServlet.doGet(ModernServlet.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at ex08.pyrmont.core.SimpleWrapperValve.invoke(SimpleWrapperValve.java:44)
+	at ex08.pyrmont.core.SimplePipeline$StandardPipelineValveContext.invokeNext(SimplePipeline.java:105)
+	at ex08.pyrmont.core.SimplePipeline.invoke(SimplePipeline.java:65)
+	at ex08.pyrmont.core.SimpleWrapper.invoke(SimpleWrapper.java:280)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:185)
+	at org.apache.catalina.core.StandardPipeline$StandardPipelineValveContext.invokeNext(StandardPipeline.java:642)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:478)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:993)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2368)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:972)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1085)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-23 16:39:09 HttpProcessor[8080][4] process.invoke
+java.lang.IllegalAccessError: ModernServlet$1
+	at ModernServlet.doGet(ModernServlet.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at ex08.pyrmont.core.SimpleWrapperValve.invoke(SimpleWrapperValve.java:44)
+	at ex08.pyrmont.core.SimplePipeline$StandardPipelineValveContext.invokeNext(SimplePipeline.java:105)
+	at ex08.pyrmont.core.SimplePipeline.invoke(SimplePipeline.java:65)
+	at ex08.pyrmont.core.SimpleWrapper.invoke(SimpleWrapper.java:280)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:185)
+	at org.apache.catalina.core.StandardPipeline$StandardPipelineValveContext.invokeNext(StandardPipeline.java:642)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:478)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:993)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2368)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:972)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1085)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-23 16:39:55 HttpProcessor[8080][4] process.invoke
+java.lang.IllegalAccessError: ModernServlet$1
+	at ModernServlet.doGet(ModernServlet.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at ex08.pyrmont.core.SimpleWrapperValve.invoke(SimpleWrapperValve.java:44)
+	at ex08.pyrmont.core.SimplePipeline$StandardPipelineValveContext.invokeNext(SimplePipeline.java:105)
+	at ex08.pyrmont.core.SimplePipeline.invoke(SimplePipeline.java:65)
+	at ex08.pyrmont.core.SimpleWrapper.invoke(SimpleWrapper.java:280)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:185)
+	at org.apache.catalina.core.StandardPipeline$StandardPipelineValveContext.invokeNext(StandardPipeline.java:642)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:478)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:993)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2368)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:972)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1085)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-23 16:40:27 HttpProcessor[8080][4] process.invoke
+java.lang.IllegalAccessError: ModernServlet$1
+	at ModernServlet.doGet(ModernServlet.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at ex08.pyrmont.core.SimpleWrapperValve.invoke(SimpleWrapperValve.java:44)
+	at ex08.pyrmont.core.SimplePipeline$StandardPipelineValveContext.invokeNext(SimplePipeline.java:105)
+	at ex08.pyrmont.core.SimplePipeline.invoke(SimplePipeline.java:65)
+	at ex08.pyrmont.core.SimpleWrapper.invoke(SimpleWrapper.java:280)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:185)
+	at org.apache.catalina.core.StandardPipeline$StandardPipelineValveContext.invokeNext(StandardPipeline.java:642)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:478)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:993)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2368)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:972)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1085)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-23 16:41:59 HttpProcessor[8080][4] process.invoke
+java.lang.IllegalAccessError: ModernServlet$1
+	at ModernServlet.doGet(ModernServlet.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at ex08.pyrmont.core.SimpleWrapperValve.invoke(SimpleWrapperValve.java:44)
+	at ex08.pyrmont.core.SimplePipeline$StandardPipelineValveContext.invokeNext(SimplePipeline.java:105)
+	at ex08.pyrmont.core.SimplePipeline.invoke(SimplePipeline.java:65)
+	at ex08.pyrmont.core.SimpleWrapper.invoke(SimpleWrapper.java:280)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:185)
+	at org.apache.catalina.core.StandardPipeline$StandardPipelineValveContext.invokeNext(StandardPipeline.java:642)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:478)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:993)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2368)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:972)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1085)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-23 16:42:03 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 16:42:03 HttpConnector[8080] Starting background thread
+2019-04-23 16:42:03 HttpProcessor[8080][0] Starting background thread
+2019-04-23 16:42:03 HttpProcessor[8080][1] Starting background thread
+2019-04-23 16:42:03 HttpProcessor[8080][2] Starting background thread
+2019-04-23 16:42:03 HttpProcessor[8080][3] Starting background thread
+2019-04-23 16:42:03 HttpProcessor[8080][4] Starting background thread
+2019-04-23 16:42:05 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 16:42:05 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 16:42:05 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 16:42:05 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 16:53:44 HttpProcessor[8080][4] process.invoke
+java.lang.IllegalAccessError: tried to access class ModernServlet$1 from class ModernServlet
+	at ModernServlet.doGet(ModernServlet.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at ex08.pyrmont.core.SimpleWrapperValve.invoke(SimpleWrapperValve.java:44)
+	at ex08.pyrmont.core.SimplePipeline$StandardPipelineValveContext.invokeNext(SimplePipeline.java:105)
+	at ex08.pyrmont.core.SimplePipeline.invoke(SimplePipeline.java:65)
+	at ex08.pyrmont.core.SimpleWrapper.invoke(SimpleWrapper.java:280)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:185)
+	at org.apache.catalina.core.StandardPipeline$StandardPipelineValveContext.invokeNext(StandardPipeline.java:642)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:478)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:993)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2368)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:972)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1085)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-23 16:53:46 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 16:53:46 HttpConnector[8080] Starting background thread
+2019-04-23 16:53:46 HttpProcessor[8080][0] Starting background thread
+2019-04-23 16:53:46 HttpProcessor[8080][1] Starting background thread
+2019-04-23 16:53:46 HttpProcessor[8080][2] Starting background thread
+2019-04-23 16:53:46 HttpProcessor[8080][3] Starting background thread
+2019-04-23 16:53:46 HttpProcessor[8080][4] Starting background thread
+2019-04-23 16:53:46 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 16:53:46 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 16:53:46 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 16:53:46 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 16:55:47 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 16:55:47 HttpConnector[8080] Starting background thread
+2019-04-23 16:55:47 HttpProcessor[8080][0] Starting background thread
+2019-04-23 16:55:47 HttpProcessor[8080][1] Starting background thread
+2019-04-23 16:55:47 HttpProcessor[8080][2] Starting background thread
+2019-04-23 16:55:47 HttpProcessor[8080][3] Starting background thread
+2019-04-23 16:55:47 HttpProcessor[8080][4] Starting background thread
+2019-04-23 16:55:47 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 16:55:47 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 16:55:47 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 16:55:47 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 16:56:52 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 16:56:52 HttpConnector[8080] Starting background thread
+2019-04-23 16:56:52 HttpProcessor[8080][0] Starting background thread
+2019-04-23 16:56:52 HttpProcessor[8080][1] Starting background thread
+2019-04-23 16:56:52 HttpProcessor[8080][2] Starting background thread
+2019-04-23 16:56:52 HttpProcessor[8080][3] Starting background thread
+2019-04-23 16:56:52 HttpProcessor[8080][4] Starting background thread
+2019-04-23 16:56:52 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 16:56:52 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 16:56:52 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 16:56:52 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 16:59:07 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 16:59:07 HttpConnector[8080] Starting background thread
+2019-04-23 16:59:07 HttpProcessor[8080][0] Starting background thread
+2019-04-23 16:59:07 HttpProcessor[8080][1] Starting background thread
+2019-04-23 16:59:07 HttpProcessor[8080][2] Starting background thread
+2019-04-23 16:59:07 HttpProcessor[8080][3] Starting background thread
+2019-04-23 16:59:07 HttpProcessor[8080][4] Starting background thread
+2019-04-23 16:59:07 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 16:59:07 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 16:59:07 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 16:59:07 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 17:00:31 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 17:00:31 HttpConnector[8080] Starting background thread
+2019-04-23 17:00:31 HttpProcessor[8080][0] Starting background thread
+2019-04-23 17:00:31 HttpProcessor[8080][1] Starting background thread
+2019-04-23 17:00:31 HttpProcessor[8080][2] Starting background thread
+2019-04-23 17:00:31 HttpProcessor[8080][3] Starting background thread
+2019-04-23 17:00:31 HttpProcessor[8080][4] Starting background thread
+2019-04-23 17:00:31 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 17:00:31 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 17:00:31 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 17:00:31 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 17:02:17 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 17:02:17 HttpConnector[8080] Starting background thread
+2019-04-23 17:02:18 HttpProcessor[8080][0] Starting background thread
+2019-04-23 17:02:18 HttpProcessor[8080][1] Starting background thread
+2019-04-23 17:02:18 HttpProcessor[8080][2] Starting background thread
+2019-04-23 17:02:18 HttpProcessor[8080][3] Starting background thread
+2019-04-23 17:02:18 HttpProcessor[8080][4] Starting background thread
+2019-04-23 17:02:18 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 17:02:18 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 17:02:18 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 17:02:18 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 17:03:23 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 17:03:23 HttpConnector[8080] Starting background thread
+2019-04-23 17:03:24 HttpProcessor[8080][0] Starting background thread
+2019-04-23 17:03:24 HttpProcessor[8080][1] Starting background thread
+2019-04-23 17:03:24 HttpProcessor[8080][2] Starting background thread
+2019-04-23 17:03:24 HttpProcessor[8080][3] Starting background thread
+2019-04-23 17:03:24 HttpProcessor[8080][4] Starting background thread
+2019-04-23 17:03:24 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 17:03:24 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 17:03:24 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 17:03:24 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 17:07:47 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 17:07:47 HttpConnector[8080] Starting background thread
+2019-04-23 17:07:47 HttpProcessor[8080][0] Starting background thread
+2019-04-23 17:07:47 HttpProcessor[8080][1] Starting background thread
+2019-04-23 17:07:47 HttpProcessor[8080][2] Starting background thread
+2019-04-23 17:07:47 HttpProcessor[8080][3] Starting background thread
+2019-04-23 17:07:47 HttpProcessor[8080][4] Starting background thread
+2019-04-23 17:07:47 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 17:07:47 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 17:07:47 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 17:07:47 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 17:08:25 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 17:08:25 HttpConnector[8080] Starting background thread
+2019-04-23 17:08:25 HttpProcessor[8080][0] Starting background thread
+2019-04-23 17:08:25 HttpProcessor[8080][1] Starting background thread
+2019-04-23 17:08:25 HttpProcessor[8080][2] Starting background thread
+2019-04-23 17:08:25 HttpProcessor[8080][3] Starting background thread
+2019-04-23 17:08:25 HttpProcessor[8080][4] Starting background thread
+2019-04-23 17:08:25 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 17:08:25 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 17:08:25 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 17:08:25 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 17:08:49 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 17:08:49 HttpConnector[8080] Starting background thread
+2019-04-23 17:08:49 HttpProcessor[8080][0] Starting background thread
+2019-04-23 17:08:49 HttpProcessor[8080][1] Starting background thread
+2019-04-23 17:08:49 HttpProcessor[8080][2] Starting background thread
+2019-04-23 17:08:49 HttpProcessor[8080][3] Starting background thread
+2019-04-23 17:08:49 HttpProcessor[8080][4] Starting background thread
+2019-04-23 17:08:49 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 17:08:49 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 17:08:49 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 17:08:49 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 17:09:29 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 17:09:29 HttpConnector[8080] Starting background thread
+2019-04-23 17:09:29 HttpProcessor[8080][0] Starting background thread
+2019-04-23 17:09:29 HttpProcessor[8080][1] Starting background thread
+2019-04-23 17:09:29 HttpProcessor[8080][2] Starting background thread
+2019-04-23 17:09:29 HttpProcessor[8080][3] Starting background thread
+2019-04-23 17:09:29 HttpProcessor[8080][4] Starting background thread
+2019-04-23 17:09:29 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 17:09:29 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 17:09:29 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 17:09:29 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 17:10:59 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 17:10:59 HttpConnector[8080] Starting background thread
+2019-04-23 17:10:59 HttpProcessor[8080][0] Starting background thread
+2019-04-23 17:10:59 HttpProcessor[8080][1] Starting background thread
+2019-04-23 17:10:59 HttpProcessor[8080][2] Starting background thread
+2019-04-23 17:10:59 HttpProcessor[8080][3] Starting background thread
+2019-04-23 17:10:59 HttpProcessor[8080][4] Starting background thread
+2019-04-23 17:11:00 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 17:11:00 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 17:11:00 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 17:11:00 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 17:12:12 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 17:12:12 HttpConnector[8080] Starting background thread
+2019-04-23 17:12:12 HttpProcessor[8080][0] Starting background thread
+2019-04-23 17:12:12 HttpProcessor[8080][1] Starting background thread
+2019-04-23 17:12:12 HttpProcessor[8080][2] Starting background thread
+2019-04-23 17:12:12 HttpProcessor[8080][3] Starting background thread
+2019-04-23 17:12:12 HttpProcessor[8080][4] Starting background thread
+2019-04-23 17:12:12 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 17:12:12 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 17:12:12 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 17:12:12 StandardManager[/myApp]: Seeding of random number generator has been completed
+2019-04-23 17:12:41 HttpProcessor[8080][4] process.invoke
+java.lang.NoClassDefFoundError: javax/servlet/http/HttpServletRequest
+	at ModernServlet.doGet(ModernServlet.java:45)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at ex08.pyrmont.core.SimpleWrapperValve.invoke(SimpleWrapperValve.java:44)
+	at ex08.pyrmont.core.SimplePipeline$StandardPipelineValveContext.invokeNext(SimplePipeline.java:105)
+	at ex08.pyrmont.core.SimplePipeline.invoke(SimplePipeline.java:65)
+	at ex08.pyrmont.core.SimpleWrapper.invoke(SimpleWrapper.java:280)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:185)
+	at org.apache.catalina.core.StandardPipeline$StandardPipelineValveContext.invokeNext(StandardPipeline.java:642)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:478)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:993)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2368)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:972)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1085)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1298)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1260)
+	... 15 more
+
+2019-04-23 17:14:10 HttpConnector Opening server socket on all host IP addresses
+2019-04-23 17:14:10 HttpConnector[8080] Starting background thread
+2019-04-23 17:14:10 HttpProcessor[8080][0] Starting background thread
+2019-04-23 17:14:10 HttpProcessor[8080][1] Starting background thread
+2019-04-23 17:14:10 HttpProcessor[8080][2] Starting background thread
+2019-04-23 17:14:10 HttpProcessor[8080][3] Starting background thread
+2019-04-23 17:14:10 HttpProcessor[8080][4] Starting background thread
+2019-04-23 17:14:10 WebappLoader[/myApp]: Deploying class repositories to work directory /Users/jasey/myfile/project/git-hub/how-tomcat-works/work/_/_/myApp
+2019-04-23 17:14:10 WebappLoader[/myApp]: Deploy class files /WEB-INF/classes to /Users/jasey/myfile/project/git-hub/how-tomcat-works/myApp/WEB-INF/classes
+2019-04-23 17:14:10 StandardManager[/myApp]: Seeding random number generator class java.security.SecureRandom
+2019-04-23 17:14:10 StandardManager[/myApp]: Seeding of random number generator has been completed
